@@ -1,0 +1,5 @@
+
+def show(filename, regularexp):
+    a = filename.open()
+    for line in a:
+        matches = findall(
